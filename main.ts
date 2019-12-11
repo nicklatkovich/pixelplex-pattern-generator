@@ -1,4 +1,4 @@
-const color = "#a6accd";
+const color = "#4650a0";
 const size = 5;
 const scale = 64;
 const line_width = 3;
@@ -108,7 +108,8 @@ async function main() {
 	const ctx = renderer.getContext("2d");
 	if (!ctx) throw new Error("unable to get context");
 	render(generate(size), size, ctx);
-	document.body.onkeyup = (e) => { if (e.keyCode === 32) render(generate(size), size, ctx); }
+	document.body.onkeydown = (e) => { if (e.keyCode === 32) render(generate(size), size, ctx); }
+	document.body.onmousedown = () => render(generate(size), size, ctx);
 }
 
 if (document) main();
