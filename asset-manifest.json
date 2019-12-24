@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/pixelplex-pattern-generator/static/css/main.5cdffbbb.chunk.css",
-    "main.js": "/pixelplex-pattern-generator/static/js/main.c2b79d40.chunk.js",
-    "main.js.map": "/pixelplex-pattern-generator/static/js/main.c2b79d40.chunk.js.map",
+    "main.css": "/pixelplex-pattern-generator/static/css/main.23471527.chunk.css",
+    "main.js": "/pixelplex-pattern-generator/static/js/main.4cbf3217.chunk.js",
+    "main.js.map": "/pixelplex-pattern-generator/static/js/main.4cbf3217.chunk.js.map",
     "runtime-main.js": "/pixelplex-pattern-generator/static/js/runtime-main.4b77f884.js",
     "runtime-main.js.map": "/pixelplex-pattern-generator/static/js/runtime-main.4b77f884.js.map",
-    "static/js/2.626bfd03.chunk.js": "/pixelplex-pattern-generator/static/js/2.626bfd03.chunk.js",
-    "static/js/2.626bfd03.chunk.js.map": "/pixelplex-pattern-generator/static/js/2.626bfd03.chunk.js.map",
+    "static/js/2.61c14999.chunk.js": "/pixelplex-pattern-generator/static/js/2.61c14999.chunk.js",
+    "static/js/2.61c14999.chunk.js.map": "/pixelplex-pattern-generator/static/js/2.61c14999.chunk.js.map",
     "index.html": "/pixelplex-pattern-generator/index.html",
-    "precache-manifest.40c87e96d4c1af355a364135305b216c.js": "/pixelplex-pattern-generator/precache-manifest.40c87e96d4c1af355a364135305b216c.js",
+    "precache-manifest.472bd557ce150260809a93184d2b8453.js": "/pixelplex-pattern-generator/precache-manifest.472bd557ce150260809a93184d2b8453.js",
     "service-worker.js": "/pixelplex-pattern-generator/service-worker.js",
-    "static/css/main.5cdffbbb.chunk.css.map": "/pixelplex-pattern-generator/static/css/main.5cdffbbb.chunk.css.map",
-    "static/js/2.626bfd03.chunk.js.LICENSE": "/pixelplex-pattern-generator/static/js/2.626bfd03.chunk.js.LICENSE",
+    "static/css/main.23471527.chunk.css.map": "/pixelplex-pattern-generator/static/css/main.23471527.chunk.css.map",
+    "static/js/2.61c14999.chunk.js.LICENSE": "/pixelplex-pattern-generator/static/js/2.61c14999.chunk.js.LICENSE",
+    "static/media/index.scss": "/pixelplex-pattern-generator/static/media/SuisseIntl-Regular.2d4b880f.otf",
     "static/media/logo.svg": "/pixelplex-pattern-generator/static/media/logo.4510bc10.svg",
     "static/media/tagline.svg": "/pixelplex-pattern-generator/static/media/tagline.aa77d7ed.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4b77f884.js",
-    "static/js/2.626bfd03.chunk.js",
-    "static/css/main.5cdffbbb.chunk.css",
-    "static/js/main.c2b79d40.chunk.js"
+    "static/js/2.61c14999.chunk.js",
+    "static/css/main.23471527.chunk.css",
+    "static/js/main.4cbf3217.chunk.js"
   ]
 }
