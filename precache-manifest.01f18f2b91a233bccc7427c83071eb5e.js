@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3696bc4a2ef3ce19d14d39e208292b5d",
+    "revision": "523cbaf36d918c7e042b0e70f65abe54",
     "url": "/pixelplex-pattern-generator/index.html"
   },
   {
-    "revision": "42bc3a9024493841ec9b",
+    "revision": "cd35106c6dc6569b448e",
     "url": "/pixelplex-pattern-generator/static/css/main.23471527.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pixelplex-pattern-generator/static/js/2.61c14999.chunk.js.LICENSE"
   },
   {
-    "revision": "42bc3a9024493841ec9b",
-    "url": "/pixelplex-pattern-generator/static/js/main.4cbf3217.chunk.js"
+    "revision": "cd35106c6dc6569b448e",
+    "url": "/pixelplex-pattern-generator/static/js/main.2f0ff0d4.chunk.js"
   },
   {
     "revision": "3706673f2a13aa683a8d",

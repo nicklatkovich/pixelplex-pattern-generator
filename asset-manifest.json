@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pixelplex-pattern-generator/static/css/main.23471527.chunk.css",
-    "main.js": "/pixelplex-pattern-generator/static/js/main.4cbf3217.chunk.js",
-    "main.js.map": "/pixelplex-pattern-generator/static/js/main.4cbf3217.chunk.js.map",
+    "main.js": "/pixelplex-pattern-generator/static/js/main.2f0ff0d4.chunk.js",
+    "main.js.map": "/pixelplex-pattern-generator/static/js/main.2f0ff0d4.chunk.js.map",
     "runtime-main.js": "/pixelplex-pattern-generator/static/js/runtime-main.4b77f884.js",
     "runtime-main.js.map": "/pixelplex-pattern-generator/static/js/runtime-main.4b77f884.js.map",
     "static/js/2.61c14999.chunk.js": "/pixelplex-pattern-generator/static/js/2.61c14999.chunk.js",
     "static/js/2.61c14999.chunk.js.map": "/pixelplex-pattern-generator/static/js/2.61c14999.chunk.js.map",
     "index.html": "/pixelplex-pattern-generator/index.html",
-    "precache-manifest.472bd557ce150260809a93184d2b8453.js": "/pixelplex-pattern-generator/precache-manifest.472bd557ce150260809a93184d2b8453.js",
+    "precache-manifest.01f18f2b91a233bccc7427c83071eb5e.js": "/pixelplex-pattern-generator/precache-manifest.01f18f2b91a233bccc7427c83071eb5e.js",
     "service-worker.js": "/pixelplex-pattern-generator/service-worker.js",
     "static/css/main.23471527.chunk.css.map": "/pixelplex-pattern-generator/static/css/main.23471527.chunk.css.map",
     "static/js/2.61c14999.chunk.js.LICENSE": "/pixelplex-pattern-generator/static/js/2.61c14999.chunk.js.LICENSE",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.4b77f884.js",
     "static/js/2.61c14999.chunk.js",
     "static/css/main.23471527.chunk.css",
-    "static/js/main.4cbf3217.chunk.js"
+    "static/js/main.2f0ff0d4.chunk.js"
   ]
 }
