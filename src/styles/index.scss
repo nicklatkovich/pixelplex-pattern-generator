@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'SuisseIntlRegular';
+	src: local('SuisseIntlRegular'), url(../fonts/SuisseIntl-Regular.otf) format('opentype');
+}
+
 body { margin: 0; }
 
 input { outline: none; }
@@ -23,5 +28,20 @@ input { outline: none; }
 		flex-direction: column;
 		align-items: center;
 		& > * { margin: 16px 0; }
+	}
+	#slideshow {
+		position: relative;
+		width: 718px;
+		height: 512px;
+		& > * { position: absolute; }
+		svg { left: 206px; }
+		#tagline { width: 556px; }
+		#logo { bottom: 126px; width: 186px; }
+		#name {
+			font-size: 20px;
+			bottom: 56px;
+			color: #4650A0;
+			font-family: SuisseIntlRegular, Arial, Helvetica, sans-serif;
+		}
 	}
 }

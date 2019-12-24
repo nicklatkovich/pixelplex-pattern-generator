@@ -2,6 +2,8 @@ import { Grid } from "./grid";
 import { Point } from "./point";
 import { rand } from "./random";
 
+const size = 5;
+
 export enum CELL {
 	EMPTY = 0,
 	POTENTIAL = 1,
@@ -23,7 +25,7 @@ export const possibleCornerLocks: Point[][] = [
 	[pointZero, right, bottom],
 ];
 
-export function generate(size: number): Grid<boolean> {
+export function generate(): Grid<boolean> {
 	const grid = new Grid(size, size, () => CELL.EMPTY);
 	const start = new Point(rand(grid.width), rand(grid.height));
 	for (let i = 0; i < 4; i++) {
