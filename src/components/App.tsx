@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { generate } from "../scripts/generator";
 import { Grid } from "../scripts/grid";
+import Logo from "../images/logo.svg";
+import TagLine from "../images/tagline.svg";
 
 import Pattern, { Type } from "./Pattern";
 import { setSeed } from "../scripts/random";
@@ -14,12 +16,23 @@ export default class App extends Component<{}, { grid: Grid<boolean>, type: Type
 		super(props, context);
 		setSeed(Buffer.from(defaultSeed));
 		this.state = { grid: generate(size), type: Type.PATTERN };
+		setInterval(() => this.setState({ grid: generate(size) }), 1500);
 	}
 
 	render() {
 		return <div id="app">
-			<Pattern grid={this.state.grid} gradient type={this.state.type} />
-			<div id="options">
+			<div className="identica-wrap">
+				<Pattern grid={this.state.grid} gradient type={this.state.type} />
+			</div>
+			<div className="container">
+				<div className="row">
+					<img id="tagline" className="tagline" src={TagLine} alt="" />
+					<img id="logo" className="pixelplex" src={Logo} />
+				</div>
+			</div>
+			{/* 
+			 */}
+			{/* <div id="options">
 				<input type="text" defaultValue={defaultSeed} onChange={(e) => {
 					setSeed(Buffer.from(e.target.value));
 					this.setState({ grid: generate(size) });
@@ -29,7 +42,7 @@ export default class App extends Component<{}, { grid: Grid<boolean>, type: Type
 					{ type: Type.FILL, title: 'Fill' },
 					{ type: Type.PATTERN, title: 'Pattern' },
 				].map(({ type, title }) => <div onClick={() => this.setState({ type })}>{title}</div>)}
-			</div>
+			</div> */}
 		</div>;
 	}
 }

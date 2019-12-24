@@ -55,7 +55,7 @@ export default class Pattern extends Component<{ type: Type, gradient: boolean, 
 		return <Fragment>
 			<defs>
 				<pattern id="line" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(-45 2 2)">
-					<path d="M -1,2 l 20,0" stroke="#fff" stroke-width="4" />
+					<path d="M -1,2 l 20,0" stroke="#fff" stroke-width="1.5" />
 					{/* <line x1="0" y1="10" x2="10" y2="0" color="#fff" width="2" /> */}
 				</pattern>
 				{this.fillDefs}

@@ -1,4 +1,4 @@
-body { margin: 0; }
+body { margin: 0; overflow: hidden; }
 
 input { outline: none; }
 
@@ -18,10 +18,53 @@ input { outline: none; }
 	flex-direction: row;
 	align-items: center;
 	flex-wrap: wrap;
+
 	#options {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		& > * { margin: 16px 0; }
 	}
+	#logo {
+	}
+	#tagline {
+	}
+}
+
+.identica-wrap {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.row {
+	min-height: 392px;
+		display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 0 120px;
+	margin: 0 0 0 -300px;
+	position: relative;
+	z-index: 4;
+}
+
+.pixelplex {
+	width: 150px;
+}
+
+.tagline {
+	width: 550px;
+	z-index: 4;
 }
