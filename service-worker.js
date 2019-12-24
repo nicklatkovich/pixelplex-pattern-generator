@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pixelplex-pattern-generator/precache-manifest.2ddded94b6ffb2312daf2ce43486b1a4.js"
+  "/pixelplex-pattern-generator/precache-manifest.40c87e96d4c1af355a364135305b216c.js"
 );
 
 self.addEventListener('message', (event) => {

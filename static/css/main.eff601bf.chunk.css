@@ -1,2 +1,0 @@
-body{margin:0}input{outline:none}#root{font-size:18px;background-color:#000;color:#a6accd}#app,#root{width:100vw;height:100vh}#app{justify-content:space-evenly;flex-direction:row;flex-wrap:wrap}#app,#app #options{display:flex;align-items:center}#app #options{flex-direction:column}#app #options>*{margin:16px 0}
-/*# sourceMappingURL=main.eff601bf.chunk.css.map */
